@@ -15,13 +15,13 @@ print("Coded by dev github/dev6920")
 
 while True:
   
-  username = input("Enter username (type 'exit' to quit): ")
+  username = input("Enter username (DisxordNitro): ")
 
   if username == "exit":
     break
 
 
-  url1 = f"https://fortnitetracker.com/profile/all/{username}/events"
+  url1 = f"https://fortnitetracker.com/profile/all/{DisxordNitro}/events"
 
 
   response1 = requests.get(url1)
